@@ -20,7 +20,7 @@ const TodoForm = (props) => {
                 setTodoText("")
             }}>
             <input
-                placeholder="Add a todo"
+                placeholder="Add A Todo"
                 value={todoText}
                 name="todoText"
                 type="text"

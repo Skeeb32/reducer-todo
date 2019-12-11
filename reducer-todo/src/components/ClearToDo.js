@@ -10,7 +10,7 @@ const ClearTodo = (props) => {
             props.dispatch({ type: 'REMOVE_TODO', payload: props.todoList.todos })
         }}
         >
-            Clear Todos
+            Clear Completed Todos
     </button>
 }
 
